@@ -1,0 +1,18 @@
+sudo apt install arpalert
+
+sudo vim /etc/arpalert
+
+sudo vim /etc/arpalert/arpalert.conf
+
+sudo vim /etc/arpalert/maclist.allow
+
+	............ example configuration............
+
+[Mac_Address]	[IP_ADDRESS]	[Wireless_Interface]
+
+
+sudo service arpalert restart
+
+sudo apt install lnav
+
+sudo lnav /var/log/syslog
